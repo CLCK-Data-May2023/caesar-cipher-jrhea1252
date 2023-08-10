@@ -10,4 +10,4 @@ trans_table = str.maketrans(alphabet + alphabet.upper(), shifted_alphabet + shif
 # Encrypt the user input using Caesar cipher
 cipher_text = user_input.translate(trans_table)
 
-print('The encrypted sentence is:' + cipher_text.lower())
+print('The encrypted sentence is: ' + cipher_text.lower())
